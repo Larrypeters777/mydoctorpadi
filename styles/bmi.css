@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #527bdc;
+    font-size: 18px;
+}
+
+.nav{
+    padding-top: 6px;
+    background-color: #FFFFFF;
+    height: 151px;
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.nav-list{
+    padding: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    border-bottom: 10px  #eee ;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+li:first-child {
+ margin-right: auto;
+}
+.nav-item {
+    color: black;
+    display: block;
+    margin: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.active {
+    background-color: #3c5dac;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3c5dac;
+    padding: 7px;
+    color: #fff;
+    border-radius: 10px;
+}
+.container1 {
+    padding: 70px;
+}
+.wrapper1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 755px;
+    max-width: 755px;
+    border: #3C5DAC 1px solid;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: black 0 0 10px;
+    padding: 10px;
+}
+.flex {
+    align-content: center;
+}
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C5DAC;
+    line-height: 50px;
+}
+.bmi-txt1 {
+    color: #3F3D56;
+    font-size: 20px;
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+.buttons{
+    margin: 13px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.btn-m {
+    margin-left: 30px;
+}
+.male,
+.female {
+    width: 300px;
+    height: 57px;
+    background: #3C5DAC;
+    border: none;
+    border-radius: 16px;
+    font-family: 'Montserrat'; 
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.parameters {
+    margin: 13px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 30px;
+}
+.wna{
+    margin: 5px 10px;
+    
+}
+.weight{
+    width: 302px;
+    height: 280px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.age{
+    margin-top: 10px;
+    width: 302px;
+    height: 280px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

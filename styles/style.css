@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0%;
+    background-image: url(../images/hospital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 18px;
+}
+.nav{
+    background-color: #FFFFFF;
+    height: 151px;
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.nav-list{
+    padding: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    border-bottom: 10px  #eee ;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li:first-child {
+ margin-right: auto;
+}
+.asterik {
+    display: inline-block;
+    color: red;
+}
+.nav-item {
+    color: black;
+    display: block;
+    margin: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.active {
+    background-color: #3c5dac;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3c5dac;
+    padding: 7px;
+    color: #fff;
+    border-radius: 10px;
+}
+.container {
+    width: 766px;
+    max-width: 766px;
+    position: relative;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.contact-form{
+    max-width: 766px;
+    margin: auto;
+    border: #3F3D56 1px solid;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: black 0 0 40px;
+}
+.heading{
+    margin: 10px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: #3C5DAC;
+    line-height: 52px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form {
+    padding-top: 40px;
+}
+label {
+    margin: 60px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+}
+select,
+.province,
+.city {
+    width: 631px;
+    height: 72px;
+    padding: 12px 20px;
+    margin: 20px 62px;
+    display: block;
+    border: 1px solid #3F3D56;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+option{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+}
+.checkbox {
+    margin-left: 60px;
+    height: 20px;
+    width: 40px;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.hospital {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.pharmacy-check {
+    height: 20px;
+    width: 40px;
+    margin-left: 140px;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+input {
+    font-size: 25px;
+}
+.search {
+    width: 100px;
+    padding: 1rem 19rem;
+    align-content: center;
+    margin: 23px;
+}
+.search-box {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    background-color: #3C5DAC;
+    cursor: pointer;
+    text-decoration: none;
+}

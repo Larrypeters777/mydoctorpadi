@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>MyDoctorPadi - Hospital and Pharmacies around you</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-flex">
+            <img src="./images/50plogopng.png" alt="myDoctorPadi-logo" class="logo">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Our Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <main class="container">
+        <div class="contact-form" id="search-box">
+            <h1 class="heading">
+                Hospitals and Pharmacies <br>Around You
+            </h1>
+            <div class="form">
+                <label for="country">Country <div class="asterik">*</div> </label>
+               <select id="country" name="country"></select>
+            </div>
+           
+            <div class="form">
+                <label for="state">State<div class="asterik">*</div></label>
+                <select id="state" name="country">
+                    <option value="country"></option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="Province">Province<div class="asterik">*</div></label>
+                <input type="text" name="province" placeholder="*required" class="province">
+            </div>
+            <div class="form">
+                <label for="City">City<div class="asterik">*</div></label>
+                <input type="text" name="city" placeholder="*required" class="city">
+            </div>
+            <div>
+                <input type="checkbox" name="hospital" class="checkbox">
+                <h2 class="hospital">Hospital</h2>
+                <input type="checkbox" name="pharmacy" class="pharmacy-check">
+                <h2 class="hospital">Pharmacy</h2>
+            </div>
+            <div class="search">
+                <a href="#" class="search-box">Search</a>
+            </div>
+            
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
